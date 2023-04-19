@@ -1,0 +1,21 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:inq="http://inquiry.service.party.appx.cz.fc.ofss.com/" xmlns:con="http://context.app.fc.ofss.com" xmlns:exc="http://exception.infra.fc.ofss.com" xmlns:dto="http://dto.common.domain.framework.fc.ofss.com" xmlns:dom="http://domain.framework.fc.ofss.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <inq:doCustomerSignatureInq>
+         <!--Optional:-->
+         <arg0>
+            <con:bankCode>08</con:bankCode>
+            <con:channel>DEBOS</con:channel>
+            <con:externalReferenceNo>2908201903</con:externalReferenceNo>
+            <con:transactingPartyCode>50000010</con:transactingPartyCode>
+            <con:transactionBranch>089999</con:transactionBranch>
+            <con:userId>DevUser01</con:userId>
+         </arg0>
+         <!--Optional:-->
+         <arg1>
+            <!--Zero or more repetitions:-->
+            <customerId>50000010</customerId>
+         </arg1>
+      </inq:doCustomerSignatureInq>
+   </soapenv:Body>
+</soapenv:Envelope>
