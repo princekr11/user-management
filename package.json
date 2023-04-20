@@ -42,7 +42,7 @@
     "type": "git",
     "url": "https://github.com/princekr11/user-management.git"
   },
-  "author": "Ketan Patil <ketanp@valuefy.com>",
+  "author": "Ketan Patil <prince.iitp22@gmail.com>",
   "license": "ISC",
   "files": [
     "README.md",
@@ -51,6 +51,7 @@
     "!*/__tests__"
   ],
   "dependencies": {
+    "common": "https://github.com/princekr11/common.git",
     "@google-cloud/storage": "^6.4.0",
     "@loopback/authorization": "0.10.0",
     "@loopback/boot": "4.0.0",
@@ -63,7 +64,6 @@
     "axios": "0.27.2",
     "bcryptjs": "2.4.3",
     "bluebird": "3.7.2",
-    "common": "https://github.com/princekr11/common.git",
     "dbf": "0.1.4",
     "dbffile": "https://github.com/princekr11/dbffile.git",
     "dotenv": "16.0.0",
