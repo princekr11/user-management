@@ -51,7 +51,7 @@
     "!*/__tests__"
   ],
   "dependencies": {
-    "common": "https://github.com/princekr11/common.git",
+    "common": "https://github.com/princekr11/common.git#feature",
     "@google-cloud/storage": "^6.4.0",
     "@loopback/authorization": "0.10.0",
     "@loopback/boot": "4.0.0",
